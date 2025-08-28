@@ -1,0 +1,31 @@
+/* frontend/src/components/Common/DebugInfo.css */
+.debug-info {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    max-width: 500px;
+    max-height: 400px;
+    overflow: auto;
+    font-size: 12px;
+    z-index: 1000;
+  }
+  
+  .debug-info h3 {
+    margin-top: 0;
+    border-bottom: 1px solid #555;
+    padding-bottom: 5px;
+  }
+  
+  .debug-section {
+    margin-bottom: 15px;
+  }
+  
+  .debug-section pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin: 5px 0 0 0;
+  }
